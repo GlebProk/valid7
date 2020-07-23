@@ -1,0 +1,10 @@
+@import url(./_card/popup__close_card.css);
+@import url(./_profile/popup__close_profile.css);
+
+.popup__close {
+  width: 26px;
+  position: absolute;
+  top: -26px;
+  right: -26px;
+  cursor: pointer;
+}

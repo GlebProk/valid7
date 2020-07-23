@@ -1,0 +1,23 @@
+.user-info__button_edit{
+    width: 38px;
+    height: 18px;
+    margin-top: 24px;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.user-info__button_edit:hover {
+    background-color: #FFFFFF;
+    color: black;
+  }
+
+@media screen and (max-width: 980px) {
+    .user-info__button {
+      position: static;
+      margin-bottom: 40px;
+    }
+  }
+

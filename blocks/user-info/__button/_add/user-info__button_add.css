@@ -1,0 +1,20 @@
+.user-info__button_add {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.user-info__button_add:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+@media screen and (max-width: 980px) {
+  .user-info__button_add {
+    position: static;
+    margin-bottom: 40px;
+  }
+}
