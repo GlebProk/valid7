@@ -167,18 +167,12 @@ function handlerInputForm(event){
   } else {
     setSubmitButtonState(submit, false);
   }
-  if (isFieldValid(name) && isFieldValid(link)) {
-    setSubmitButtonState(submit, true);
-  } else {
-    setSubmitButtonState(submit, false);
-  }   
-}
+};
 
 //Запись новой карточки
 function addCard(event) {
   event.preventDefault();
-  const currentForm = event.target;
-  const isValid = isFormValid(currentForm);
+  const isValid = isFormValid(event);
   if (isValid) {
   const name = document.querySelector('.popup__input_type_name');
   const link = document.querySelector('.popup__input_type_link-url'); 
