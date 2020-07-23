@@ -1,6 +1,6 @@
 @import url(./_card/popup__button_card.css);
 @import url(./_profile/popup__button_profile.css);
-@import url(./_invalid/popup__button_invalid.css);
+@import url(./_valid/popup__button_valid.css);
 
 .popup__button {
   width: 100%;

@@ -149,10 +149,10 @@ function isFormValid(event) {
 function setSubmitButtonState(button, state) {
   if (state) {
       button.removeAttribute('disabled');
-      button.classList.remove(`popup__button_invalid`);
+      button.classList.add(`popup__button_valid`);
   } else {
       button.setAttribute('disabled', true);
-      button.classList.add(`popup__button_invalid`);
+      button.classList.remove(`popup__button_valid`);
   }
 }
 
